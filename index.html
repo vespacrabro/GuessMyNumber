@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Number guessing game</title>
+  </head>
+
+  <body>
+      <div class="container neutral">
+        <h1>Guess my number!</h1>
+
+        <p>
+          My number is an integer between 1 and 100. See if you can guess it in
+          10 turns or fewer.
+        </p>
+
+        <div class="form">
+          <label for="guessField">My number is: </label>
+          <input type="text" id="guessField" class="guessField" />
+          <input type="submit" value="Submit guess" class="guessSubmit" />
+          <input type="submit" value="Start new game" class="newGame" />
+        </div>
+
+        <div class="resultParagraphs">
+          <p class="guesses"></p>
+          <p class="lastResult"></p>
+          <p class="lowOrHigh"></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
