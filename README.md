@@ -1,6 +1,6 @@
 # Guess My Number
 
-## Live version: link
+## Live version: [Link](https://guess-my-number-blue.vercel.app/)
 
 ## Description 
 A number guessing game 
